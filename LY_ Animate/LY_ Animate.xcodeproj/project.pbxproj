@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7558D56D1ED6896F008FC080 /* LYCAShapeDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */; };
 		75AEE03D1ED6841E00933B19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AEE03C1ED6841E00933B19 /* main.m */; };
 		75AEE0401ED6841F00933B19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AEE03F1ED6841F00933B19 /* AppDelegate.m */; };
 		75AEE0431ED6841F00933B19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AEE0421ED6841F00933B19 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7558D56B1ED6896F008FC080 /* LYCAShapeDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCAShapeDisplayViewController.h; sourceTree = "<group>"; };
+		7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCAShapeDisplayViewController.m; sourceTree = "<group>"; };
 		75AEE0381ED6841E00933B19 /* LY_ Animate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LY_ Animate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AEE03C1ED6841E00933B19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75AEE03E1ED6841E00933B19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				75AEE03F1ED6841F00933B19 /* AppDelegate.m */,
 				75AEE0411ED6841F00933B19 /* ViewController.h */,
 				75AEE0421ED6841F00933B19 /* ViewController.m */,
+				7558D56B1ED6896F008FC080 /* LYCAShapeDisplayViewController.h */,
+				7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */,
 				75AEE0441ED6841F00933B19 /* Main.storyboard */,
 				75AEE0471ED6841F00933B19 /* Assets.xcassets */,
 				75AEE0491ED6841F00933B19 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7558D56D1ED6896F008FC080 /* LYCAShapeDisplayViewController.m in Sources */,
 				75AEE0431ED6841F00933B19 /* ViewController.m in Sources */,
 				75AEE0401ED6841F00933B19 /* AppDelegate.m in Sources */,
 				75AEE03D1ED6841E00933B19 /* main.m in Sources */,
@@ -309,6 +315,7 @@
 				75AEE0511ED6841F00933B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
