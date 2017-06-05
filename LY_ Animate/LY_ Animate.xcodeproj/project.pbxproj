@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7550BC2E1EE5426B005CAF0A /* LYLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7550BC2D1EE5426A005CAF0A /* LYLayerViewController.m */; };
+		7550BC301EE5466E005CAF0A /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7550BC2F1EE5466E005CAF0A /* tesla.jpg */; };
 		7558D56D1ED6896F008FC080 /* LYCAShapeDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */; };
 		75AEE03D1ED6841E00933B19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AEE03C1ED6841E00933B19 /* main.m */; };
 		75AEE0401ED6841F00933B19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AEE03F1ED6841F00933B19 /* AppDelegate.m */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7550BC2C1EE5426A005CAF0A /* LYLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLayerViewController.h; sourceTree = "<group>"; };
+		7550BC2D1EE5426A005CAF0A /* LYLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLayerViewController.m; sourceTree = "<group>"; };
+		7550BC2F1EE5466E005CAF0A /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
 		7558D56B1ED6896F008FC080 /* LYCAShapeDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCAShapeDisplayViewController.h; sourceTree = "<group>"; };
 		7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCAShapeDisplayViewController.m; sourceTree = "<group>"; };
 		75AEE0381ED6841E00933B19 /* LY_ Animate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LY_ Animate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +72,9 @@
 				75AEE0421ED6841F00933B19 /* ViewController.m */,
 				7558D56B1ED6896F008FC080 /* LYCAShapeDisplayViewController.h */,
 				7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */,
+				7550BC2C1EE5426A005CAF0A /* LYLayerViewController.h */,
+				7550BC2D1EE5426A005CAF0A /* LYLayerViewController.m */,
+				7550BC2F1EE5466E005CAF0A /* tesla.jpg */,
 				75AEE0441ED6841F00933B19 /* Main.storyboard */,
 				75AEE0471ED6841F00933B19 /* Assets.xcassets */,
 				75AEE0491ED6841F00933B19 /* LaunchScreen.storyboard */,
@@ -144,6 +152,7 @@
 			files = (
 				75AEE04B1ED6841F00933B19 /* LaunchScreen.storyboard in Resources */,
 				75AEE0481ED6841F00933B19 /* Assets.xcassets in Resources */,
+				7550BC301EE5466E005CAF0A /* tesla.jpg in Resources */,
 				75AEE0461ED6841F00933B19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7558D56D1ED6896F008FC080 /* LYCAShapeDisplayViewController.m in Sources */,
+				7550BC2E1EE5426B005CAF0A /* LYLayerViewController.m in Sources */,
 				75AEE0431ED6841F00933B19 /* ViewController.m in Sources */,
 				75AEE0401ED6841F00933B19 /* AppDelegate.m in Sources */,
 				75AEE03D1ED6841E00933B19 /* main.m in Sources */,

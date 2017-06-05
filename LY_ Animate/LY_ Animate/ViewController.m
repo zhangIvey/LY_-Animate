@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LYCAShapeDisplayViewController.h"
+#import "LYLayerViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -22,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer"];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _tableView.delegate = self;
@@ -55,10 +56,17 @@
     return _items.count;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPat
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    LYCAShapeDisplayViewController *shapeView = [[LYCAShapeDisplayViewController alloc] init];
-    [self.navigationController pushViewController:shapeView animated:YES];
+    if(indexPath.row == 0 ){
+        LYCAShapeDisplayViewController *shapeView = [[LYCAShapeDisplayViewController alloc] init];
+        [self.navigationController pushViewController:shapeView animated:YES];
+        
+    }else if (indexPath.row == 1) {
+        LYLayerViewController *layerViewController = [[LYLayerViewController alloc] init];
+        [self.navigationController pushViewController:layerViewController animated:YES];
+    }
+    
 }
 
 
