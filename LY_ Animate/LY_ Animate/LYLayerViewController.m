@@ -16,13 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor grayColor];
     //添加一个图层
     CALayer *layer = [CALayer layer];
     layer.frame = CGRectMake(100, 100, 200, 200);
     layer.backgroundColor = [UIColor blueColor].CGColor;
-    layer.masksToBounds = YES;
+//    layer.masksToBounds = YES;
     [self.view.layer addSublayer:layer];
     
     //设置图层的寄宿图
@@ -30,10 +31,16 @@
     CALayer *cLayer = [CALayer layer];
     cLayer.frame = CGRectMake(0, 0, 200, 200);
     cLayer.contents = (__bridge id)image.CGImage;
+    
     cLayer.contentsGravity = kCAGravityCenter;
     
+//    cLayer.contentsScale = image.scale;
     
     [layer addSublayer:cLayer];
+    NSLog(@"clayer.contentsScale = %f",cLayer.contentsScale);
+    cLayer.contentsScale = [[UIScreen mainScreen] scale];
+    NSLog(@"reset = clayer.contentsScale = %f",cLayer.contentsScale);
+    
 //    [self.view.layer addSublayer:cLayer];
 }
 
