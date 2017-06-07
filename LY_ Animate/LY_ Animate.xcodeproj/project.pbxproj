@@ -16,6 +16,7 @@
 		75AEE0461ED6841F00933B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEE0441ED6841F00933B19 /* Main.storyboard */; };
 		75AEE0481ED6841F00933B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AEE0471ED6841F00933B19 /* Assets.xcassets */; };
 		75AEE04B1ED6841F00933B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEE0491ED6841F00933B19 /* LaunchScreen.storyboard */; };
+		75CCBBBF1EE69E02009931DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CCBBBE1EE69E02009931DE /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		75AEE0471ED6841F00933B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AEE04A1ED6841F00933B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AEE04C1ED6841F00933B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CCBBBE1EE69E02009931DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CCBBBF1EE69E02009931DE /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +55,7 @@
 			children = (
 				75AEE03A1ED6841E00933B19 /* LY_ Animate */,
 				75AEE0391ED6841E00933B19 /* Products */,
+				75CCBBBD1EE69E01009931DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +94,14 @@
 				75AEE03C1ED6841E00933B19 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75CCBBBD1EE69E01009931DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75CCBBBE1EE69E02009931DE /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

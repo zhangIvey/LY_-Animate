@@ -19,12 +19,20 @@
     
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor grayColor];
+    
+    UIView *layerView = [[UIView alloc] initWithFrame: CGRectMake(100, 100, 200, 200)];
+    layerView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:layerView];
+    
     //添加一个图层
     CALayer *layer = [CALayer layer];
-    layer.frame = CGRectMake(100, 100, 200, 200);
+    layer.frame = CGRectMake(50, 50, 100, 100);
     layer.backgroundColor = [UIColor blueColor].CGColor;
-//    layer.masksToBounds = YES;
-    [self.view.layer addSublayer:layer];
+    [layerView.layer addSublayer:layer];
+    
+    
+    /*
+   
     
     //设置图层的寄宿图
     UIImage *image = [UIImage imageNamed:@"tesla.jpg"];
@@ -42,6 +50,7 @@
     NSLog(@"reset = clayer.contentsScale = %f",cLayer.contentsScale);
     
 //    [self.view.layer addSublayer:cLayer];
+     */
 }
 
 - (void)didReceiveMemoryWarning {
