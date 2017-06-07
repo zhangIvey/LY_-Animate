@@ -24,12 +24,22 @@
     layerView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:layerView];
     
+    UIImage *image = [UIImage imageNamed:@"tesla.jpg"];
+    layerView.layer.contents = (__bridge id)image.CGImage;
+    
+    layerView.layer.contentsGravity = kCAGravityCenter;
+    layerView.layer.contentsScale = image.scale;
+    layerView.layer.masksToBounds = YES;
+//    layerView.layer.contentsScale = [UIScreen mainScreen].scale;
+    
+    
     //添加一个图层
+    /*
     CALayer *layer = [CALayer layer];
     layer.frame = CGRectMake(50, 50, 100, 100);
     layer.backgroundColor = [UIColor blueColor].CGColor;
     [layerView.layer addSublayer:layer];
-    
+    */
     
     /*
    

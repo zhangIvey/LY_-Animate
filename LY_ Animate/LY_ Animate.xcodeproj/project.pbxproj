@@ -135,6 +135,7 @@
 				TargetAttributes = {
 					75AEE0371ED6841E00933B19 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32UHZELM74;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -300,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32UHZELM74;
 				INFOPLIST_FILE = "LY_ Animate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.monster.LY--Animate";
@@ -311,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32UHZELM74;
 				INFOPLIST_FILE = "LY_ Animate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.monster.LY--Animate";
