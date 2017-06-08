@@ -18,6 +18,8 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
+    
+    
     self.view.backgroundColor = [UIColor grayColor];
     
     UIView *layerView = [[UIView alloc] initWithFrame: CGRectMake(100, 100, 200, 200)];
@@ -27,10 +29,11 @@
     UIImage *image = [UIImage imageNamed:@"tesla.jpg"];
     layerView.layer.contents = (__bridge id)image.CGImage;
     
-    layerView.layer.contentsGravity = kCAGravityCenter;
-    layerView.layer.contentsScale = image.scale;
+    layerView.layer.contentsGravity = kCAGravityResizeAspect;
+//    layerView.layer.contentsScale = image.scale;
     layerView.layer.masksToBounds = YES;
-//    layerView.layer.contentsScale = [UIScreen mainScreen].scale;
+    layerView.layer.contentsScale = [UIScreen mainScreen].scale;
+    layerView.layer.contentsRect = CGRectMake(0, 0, 1.3, 1.3);
     
     
     //添加一个图层

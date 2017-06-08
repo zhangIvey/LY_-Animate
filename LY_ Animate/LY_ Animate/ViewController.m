@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "LYCAShapeDisplayViewController.h"
 #import "LYLayerViewController.h"
+#import "LYLayerContentsRectViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -23,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer",@"contentsRect - 图片拼合"];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _tableView.delegate = self;
@@ -65,6 +66,9 @@
     }else if (indexPath.row == 1) {
         LYLayerViewController *layerViewController = [[LYLayerViewController alloc] init];
         [self.navigationController pushViewController:layerViewController animated:YES];
+    }else if (indexPath.row == 2){
+        LYLayerContentsRectViewController *imageSpriteController = [[LYLayerContentsRectViewController alloc] init];
+        [self.navigationController pushViewController:imageSpriteController animated:YES];
     }
     
 }

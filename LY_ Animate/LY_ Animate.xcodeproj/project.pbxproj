@@ -17,6 +17,7 @@
 		75AEE0481ED6841F00933B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AEE0471ED6841F00933B19 /* Assets.xcassets */; };
 		75AEE04B1ED6841F00933B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEE0491ED6841F00933B19 /* LaunchScreen.storyboard */; };
 		75CCBBBF1EE69E02009931DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CCBBBE1EE69E02009931DE /* QuartzCore.framework */; };
+		75CCBBE51EE93C9C009931DE /* LYLayerContentsRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCBBE41EE93C9C009931DE /* LYLayerContentsRectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		75AEE04A1ED6841F00933B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AEE04C1ED6841F00933B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75CCBBBE1EE69E02009931DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75CCBBE31EE93C9C009931DE /* LYLayerContentsRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLayerContentsRectViewController.h; sourceTree = "<group>"; };
+		75CCBBE41EE93C9C009931DE /* LYLayerContentsRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLayerContentsRectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */,
 				7550BC2C1EE5426A005CAF0A /* LYLayerViewController.h */,
 				7550BC2D1EE5426A005CAF0A /* LYLayerViewController.m */,
+				75CCBBE31EE93C9C009931DE /* LYLayerContentsRectViewController.h */,
+				75CCBBE41EE93C9C009931DE /* LYLayerContentsRectViewController.m */,
 				7550BC2F1EE5466E005CAF0A /* tesla.jpg */,
 				75AEE0441ED6841F00933B19 /* Main.storyboard */,
 				75AEE0471ED6841F00933B19 /* Assets.xcassets */,
@@ -180,6 +185,7 @@
 				7558D56D1ED6896F008FC080 /* LYCAShapeDisplayViewController.m in Sources */,
 				7550BC2E1EE5426B005CAF0A /* LYLayerViewController.m in Sources */,
 				75AEE0431ED6841F00933B19 /* ViewController.m in Sources */,
+				75CCBBE51EE93C9C009931DE /* LYLayerContentsRectViewController.m in Sources */,
 				75AEE0401ED6841F00933B19 /* AppDelegate.m in Sources */,
 				75AEE03D1ED6841E00933B19 /* main.m in Sources */,
 			);
