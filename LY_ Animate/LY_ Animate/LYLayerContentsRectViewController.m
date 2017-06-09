@@ -26,14 +26,15 @@
     [self imageSpriteOnLayer:view1.layer withRect:CGRectMake(0, 0, 0.5, 0.5) withImage:tesleImg];
     
     UIView *view2 = [[UIView alloc] initWithFrame:CGRectMake(120, 150, 200, 200)];
-    [self imageSpriteOnLayer:view2.layer withRect:CGRectMake(0.5, 0.5, 1, 1) withImage:tesleImg];
+    [self imageSpriteOnLayer:view2.layer withRect:CGRectMake(0.5, 0, 0.5, 0.5) withImage:tesleImg];
     
-    UIView *view3 = [[UIView alloc] initWithFrame:CGRectMake(0, 260, 200, 200)];
-    [self imageSpriteOnLayer:view3.layer withRect:CGRectMake(0.5, 0.5, 0.5, 0.5) withImage:tesleImg];
+    UIView *view3 = [[UIView alloc] initWithFrame:CGRectMake(0, 300, 200, 200)];
+    [self imageSpriteOnLayer:view3.layer withRect:CGRectMake(0, 0.5, 0.5, 0.5) withImage:tesleImg];
     
     UIView *view4 = [[UIView alloc] initWithFrame:CGRectMake(120, 500, 200, 200)];
-    [self imageSpriteOnLayer:view4.layer withRect:CGRectMake(0.5, 0.5, 1, 1) withImage:tesleImg];
+    [self imageSpriteOnLayer:view4.layer withRect:CGRectMake(0.5, 0.5, 0.5 , 0.5) withImage:tesleImg];
 
+    
     
     [self.view addSubview:view1];
     [self.view addSubview:view2];

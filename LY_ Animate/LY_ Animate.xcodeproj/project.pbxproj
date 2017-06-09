@@ -18,6 +18,8 @@
 		75AEE04B1ED6841F00933B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEE0491ED6841F00933B19 /* LaunchScreen.storyboard */; };
 		75CCBBBF1EE69E02009931DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CCBBBE1EE69E02009931DE /* QuartzCore.framework */; };
 		75CCBBE51EE93C9C009931DE /* LYLayerContentsRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCBBE41EE93C9C009931DE /* LYLayerContentsRectViewController.m */; };
+		75CCBBE81EEA4D65009931DE /* LYContentsCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCBBE71EEA4D65009931DE /* LYContentsCenterViewController.m */; };
+		75CCBBEA1EEA69D8009931DE /* geren_.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CCBBE91EEA69D8009931DE /* geren_.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		75CCBBBE1EE69E02009931DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		75CCBBE31EE93C9C009931DE /* LYLayerContentsRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLayerContentsRectViewController.h; sourceTree = "<group>"; };
 		75CCBBE41EE93C9C009931DE /* LYLayerContentsRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLayerContentsRectViewController.m; sourceTree = "<group>"; };
+		75CCBBE61EEA4D65009931DE /* LYContentsCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYContentsCenterViewController.h; sourceTree = "<group>"; };
+		75CCBBE71EEA4D65009931DE /* LYContentsCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYContentsCenterViewController.m; sourceTree = "<group>"; };
+		75CCBBE91EEA69D8009931DE /* geren_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geren_.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,8 @@
 				75AEE03F1ED6841F00933B19 /* AppDelegate.m */,
 				75AEE0411ED6841F00933B19 /* ViewController.h */,
 				75AEE0421ED6841F00933B19 /* ViewController.m */,
+				75CCBBE61EEA4D65009931DE /* LYContentsCenterViewController.h */,
+				75CCBBE71EEA4D65009931DE /* LYContentsCenterViewController.m */,
 				7558D56B1ED6896F008FC080 /* LYCAShapeDisplayViewController.h */,
 				7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */,
 				7550BC2C1EE5426A005CAF0A /* LYLayerViewController.h */,
@@ -84,6 +91,7 @@
 				75CCBBE31EE93C9C009931DE /* LYLayerContentsRectViewController.h */,
 				75CCBBE41EE93C9C009931DE /* LYLayerContentsRectViewController.m */,
 				7550BC2F1EE5466E005CAF0A /* tesla.jpg */,
+				75CCBBE91EEA69D8009931DE /* geren_.png */,
 				75AEE0441ED6841F00933B19 /* Main.storyboard */,
 				75AEE0471ED6841F00933B19 /* Assets.xcassets */,
 				75AEE0491ED6841F00933B19 /* LaunchScreen.storyboard */,
@@ -172,6 +180,7 @@
 				75AEE0481ED6841F00933B19 /* Assets.xcassets in Resources */,
 				7550BC301EE5466E005CAF0A /* tesla.jpg in Resources */,
 				75AEE0461ED6841F00933B19 /* Main.storyboard in Resources */,
+				75CCBBEA1EEA69D8009931DE /* geren_.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7558D56D1ED6896F008FC080 /* LYCAShapeDisplayViewController.m in Sources */,
+				75CCBBE81EEA4D65009931DE /* LYContentsCenterViewController.m in Sources */,
 				7550BC2E1EE5426B005CAF0A /* LYLayerViewController.m in Sources */,
 				75AEE0431ED6841F00933B19 /* ViewController.m in Sources */,
 				75CCBBE51EE93C9C009931DE /* LYLayerContentsRectViewController.m in Sources */,
