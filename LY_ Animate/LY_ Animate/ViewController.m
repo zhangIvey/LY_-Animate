@@ -11,6 +11,7 @@
 #import "LYLayerViewController.h"
 #import "LYLayerContentsRectViewController.h"
 #import "LYContentsCenterViewController.h"
+#import "CustomDrawingViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -25,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer",@"contentsRect - 图片拼合",@"contentsCenter"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing"];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _tableView.delegate = self;
@@ -73,6 +74,9 @@
     }else if (indexPath.row == 3){
         LYContentsCenterViewController *contentsCenterViewController = [[LYContentsCenterViewController alloc] init];
         [self.navigationController pushViewController:contentsCenterViewController animated:YES];
+    }else if (indexPath.row == 4){
+        CustomDrawingViewController *customDrawingViewController = [[CustomDrawingViewController alloc] init];
+        [self.navigationController pushViewController:customDrawingViewController animated:YES];
     }
     
 }
