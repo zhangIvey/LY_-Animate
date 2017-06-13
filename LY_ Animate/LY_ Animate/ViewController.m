@@ -12,6 +12,7 @@
 #import "LYLayerContentsRectViewController.h"
 #import "LYContentsCenterViewController.h"
 #import "CustomDrawingViewController.h"
+#import "LYClickViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -26,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint"];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _tableView.delegate = self;
@@ -77,6 +78,9 @@
     }else if (indexPath.row == 4){
         CustomDrawingViewController *customDrawingViewController = [[CustomDrawingViewController alloc] init];
         [self.navigationController pushViewController:customDrawingViewController animated:YES];
+    }else if (indexPath.row == 5){
+        LYClickViewController *clickViewController = [[LYClickViewController alloc] init];
+        [self.navigationController pushViewController:clickViewController animated:YES];
     }
     
 }
