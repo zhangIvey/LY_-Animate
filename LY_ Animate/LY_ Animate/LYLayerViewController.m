@@ -10,9 +10,45 @@
 
 @interface LYLayerViewController ()
 
+@property(nonatomic, strong) UIView *layerView;
+@property(nonatomic, strong) CALayer *layer;
+
 @end
 
 @implementation LYLayerViewController
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    //containsPoint
+    /*
+    CGPoint point = [[touches anyObject] locationInView:self.view];
+    point = [self.layerView.layer convertPoint:point fromLayer:self.view.layer];
+    if ([self.layerView.layer containsPoint:point]) {
+        NSLog(@"白色区域");
+        CGPoint point2 = [self.layer convertPoint:point fromLayer:self.layerView.layer];
+        if ([self.layer containsPoint:point2]) {
+            NSLog(@"蓝色区域");
+        }
+    }else{
+        NSLog(@"空白区域");
+    }
+     */
+    
+    //hitTest
+    CGPoint point = [[touches anyObject] locationInView:self.view];
+    CALayer *layerHit = [self.view.layer hitTest:point];
+    if (layerHit == self.view.layer) {
+        NSLog(@"空白区域");
+    }else if (layerHit == self.layer){
+        NSLog(@"白色区域 + 蓝色区域");
+    }else if (layerHit == self.layerView.layer){
+        NSLog(@"白色区域");
+    }
+    
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,10 +58,11 @@
     
     self.view.backgroundColor = [UIColor grayColor];
     
-    UIView *layerView = [[UIView alloc] initWithFrame: CGRectMake(100, 100, 200, 200)];
-    layerView.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:layerView];
-    
+    _layerView = [[UIView alloc] initWithFrame: CGRectMake(100, 100, 200, 200)];
+    _layerView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:_layerView];
+   
+    /*
     UIImage *image = [UIImage imageNamed:@"tesla.jpg"];
     layerView.layer.contents = (__bridge id)image.CGImage;
     
@@ -34,15 +71,15 @@
     layerView.layer.masksToBounds = YES;
     layerView.layer.contentsScale = [UIScreen mainScreen].scale;
     layerView.layer.contentsRect = CGRectMake(0, 0, 1.3, 1.3);
-    
+    */
     
     //添加一个图层
-    /*
-    CALayer *layer = [CALayer layer];
-    layer.frame = CGRectMake(50, 50, 100, 100);
-    layer.backgroundColor = [UIColor blueColor].CGColor;
-    [layerView.layer addSublayer:layer];
-    */
+    
+    _layer = [CALayer layer];
+    _layer.frame = CGRectMake(50, 50, 100, 100);
+    _layer.backgroundColor = [UIColor blueColor].CGColor;
+    [_layerView.layer addSublayer:_layer];
+    
     
     /*
    

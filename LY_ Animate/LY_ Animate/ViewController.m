@@ -13,6 +13,8 @@
 #import "LYContentsCenterViewController.h"
 #import "CustomDrawingViewController.h"
 #import "LYClickViewController.h"
+#import "LYzPositionViewController.h"
+#import "LYRoundViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -27,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角"];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _tableView.delegate = self;
@@ -81,6 +83,12 @@
     }else if (indexPath.row == 5){
         LYClickViewController *clickViewController = [[LYClickViewController alloc] init];
         [self.navigationController pushViewController:clickViewController animated:YES];
+    }else if (indexPath.row == 6){
+        LYzPositionViewController *zPositionViewController = [[LYzPositionViewController alloc] init];
+        [self.navigationController pushViewController:zPositionViewController animated:YES];
+    }else if (indexPath.row == 7){
+        LYRoundViewController *roundViewController = [[LYRoundViewController alloc] init];
+        [self.navigationController pushViewController:roundViewController animated:YES];
     }
     
 }
