@@ -15,6 +15,9 @@
 #import "LYClickViewController.h"
 #import "LYzPositionViewController.h"
 #import "LYRoundViewController.h"
+#import "LYMaskViewController.h"
+#import "LYFilterViewController.h"
+#import "LYGroupRasterizeViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -29,7 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明"];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _tableView.delegate = self;
@@ -89,6 +92,15 @@
     }else if (indexPath.row == 7){
         LYRoundViewController *roundViewController = [[LYRoundViewController alloc] init];
         [self.navigationController pushViewController:roundViewController animated:YES];
+    }else if (indexPath.row == 8){
+        LYMaskViewController *maskViewController = [[LYMaskViewController alloc] init];
+        [self.navigationController pushViewController:maskViewController animated:YES];
+    }else if (indexPath.row == 9){
+        LYFilterViewController *filterViewController = [[LYFilterViewController alloc] init];
+        [self.navigationController pushViewController:filterViewController animated:YES];
+    }else if (indexPath.row == 10){
+        LYGroupRasterizeViewController *groupRasterizeViewController = [[LYGroupRasterizeViewController alloc] init];
+        [self.navigationController pushViewController:groupRasterizeViewController animated:YES];
     }
     
 }
