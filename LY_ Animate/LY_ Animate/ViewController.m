@@ -18,6 +18,10 @@
 #import "LYMaskViewController.h"
 #import "LYFilterViewController.h"
 #import "LYGroupRasterizeViewController.h"
+#import "LYAffineTransformViewController.h"
+#import "LYConcatTransformViewController.h"
+
+
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -32,7 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明",@"仿射变换",@"混合变换"];
     
   //测试新颁布GitHub
     
@@ -103,6 +107,12 @@
     }else if (indexPath.row == 10){
         LYGroupRasterizeViewController *groupRasterizeViewController = [[LYGroupRasterizeViewController alloc] init];
         [self.navigationController pushViewController:groupRasterizeViewController animated:YES];
+    }else if (indexPath.row == 11){
+        LYAffineTransformViewController *affineTransformViewController = [[LYAffineTransformViewController alloc] init];
+        [self.navigationController pushViewController:affineTransformViewController animated:YES];
+    }else if (indexPath.row == 12){
+        LYConcatTransformViewController *concatTransformViewController = [[LYConcatTransformViewController alloc] init];
+        [self.navigationController pushViewController:concatTransformViewController animated:YES];
     }
     
 }
