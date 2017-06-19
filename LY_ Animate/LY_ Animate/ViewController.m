@@ -20,6 +20,8 @@
 #import "LYGroupRasterizeViewController.h"
 #import "LYAffineTransformViewController.h"
 #import "LYConcatTransformViewController.h"
+#import "LY3DTransformViewController.h"
+#import "LYSublayerTransformViewController.h"
 
 
 
@@ -36,7 +38,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明",@"仿射变换",@"混合变换"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明",@"仿射变换",@"混合变换",@"3D变换",@"sublayerTransform"];
     
   //测试新颁布GitHub
     
@@ -113,6 +115,12 @@
     }else if (indexPath.row == 12){
         LYConcatTransformViewController *concatTransformViewController = [[LYConcatTransformViewController alloc] init];
         [self.navigationController pushViewController:concatTransformViewController animated:YES];
+    }else if (indexPath.row == 13){
+        LY3DTransformViewController *transform3DViewController = [[LY3DTransformViewController alloc] init];
+        [self.navigationController pushViewController:transform3DViewController animated:YES];
+    }else if (indexPath.row == 14){
+        LYSublayerTransformViewController *sublayerTransform = [[LYSublayerTransformViewController alloc] init];
+        [self.navigationController pushViewController:sublayerTransform animated:YES];
     }
     
 }
