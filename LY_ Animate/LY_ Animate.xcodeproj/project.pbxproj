@@ -37,6 +37,7 @@
 		75B4CFD01EF79FCE0011DDB3 /* LYSublayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CFCF1EF79FCE0011DDB3 /* LYSublayerTransformViewController.m */; };
 		75B4CFD31EF8B4430011DDB3 /* LYCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CFD21EF8B4430011DDB3 /* LYCubeViewController.m */; };
 		75B4CFD51EF8D0180011DDB3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B4CFD41EF8D0180011DDB3 /* GLKit.framework */; };
+		75B4CFD81EFA4A9B0011DDB3 /* LYTextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CFD71EFA4A9B0011DDB3 /* LYTextLayerViewController.m */; };
 		75CCBBBF1EE69E02009931DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CCBBBE1EE69E02009931DE /* QuartzCore.framework */; };
 		75CCBBE51EE93C9C009931DE /* LYLayerContentsRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCBBE41EE93C9C009931DE /* LYLayerContentsRectViewController.m */; };
 		75CCBBE81EEA4D65009931DE /* LYContentsCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCBBE71EEA4D65009931DE /* LYContentsCenterViewController.m */; };
@@ -95,6 +96,8 @@
 		75B4CFD11EF8B4430011DDB3 /* LYCubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCubeViewController.h; sourceTree = "<group>"; };
 		75B4CFD21EF8B4430011DDB3 /* LYCubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCubeViewController.m; sourceTree = "<group>"; };
 		75B4CFD41EF8D0180011DDB3 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		75B4CFD61EFA4A9B0011DDB3 /* LYTextLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTextLayerViewController.h; sourceTree = "<group>"; };
+		75B4CFD71EFA4A9B0011DDB3 /* LYTextLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTextLayerViewController.m; sourceTree = "<group>"; };
 		75CCBBBE1EE69E02009931DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		75CCBBE31EE93C9C009931DE /* LYLayerContentsRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLayerContentsRectViewController.h; sourceTree = "<group>"; };
 		75CCBBE41EE93C9C009931DE /* LYLayerContentsRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLayerContentsRectViewController.m; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				75AEE03F1ED6841F00933B19 /* AppDelegate.m */,
 				75AEE0411ED6841F00933B19 /* ViewController.h */,
 				75AEE0421ED6841F00933B19 /* ViewController.m */,
+				75B4CFD61EFA4A9B0011DDB3 /* LYTextLayerViewController.h */,
+				75B4CFD71EFA4A9B0011DDB3 /* LYTextLayerViewController.m */,
 				2CF3F9FA1EF9717000A84B89 /* LYShaperLayerViewController.h */,
 				2CF3F9FB1EF9717000A84B89 /* LYShaperLayerViewController.m */,
 				75B4CFD11EF8B4430011DDB3 /* LYCubeViewController.h */,
@@ -301,6 +306,7 @@
 				7550BC2E1EE5426B005CAF0A /* LYLayerViewController.m in Sources */,
 				75AEE0431ED6841F00933B19 /* ViewController.m in Sources */,
 				75A60AC81EEFB37E00FD7591 /* LYClickViewController.m in Sources */,
+				75B4CFD81EFA4A9B0011DDB3 /* LYTextLayerViewController.m in Sources */,
 				75A60AD31EF273AE00FD7591 /* LYMaskViewController.m in Sources */,
 				75CCBBE51EE93C9C009931DE /* LYLayerContentsRectViewController.m in Sources */,
 				75B4CFD31EF8B4430011DDB3 /* LYCubeViewController.m in Sources */,
