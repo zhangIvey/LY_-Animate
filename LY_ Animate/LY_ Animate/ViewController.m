@@ -44,7 +44,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明",@"仿射变换",@"混合变换",@"3D变换",@"sublayerTransform",@"图层背面",@"扁平化图层",@"立方体",@"CAShaperLayer - 火柴人",@"CATextLayer"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明",@"仿射变换",@"混合变换",@"3D变换",@"sublayerTransform",@"图层背面",@"扁平化图层",@"立方体",@"CAShaperLayer - 火柴人",@"CATextLayer",@"CATextLayer + 富文本 + NSAttributedString"];
     
   //测试新颁布GitHub
     
