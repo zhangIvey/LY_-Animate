@@ -15,6 +15,7 @@
 		7550BC2E1EE5426B005CAF0A /* LYLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7550BC2D1EE5426A005CAF0A /* LYLayerViewController.m */; };
 		7550BC301EE5466E005CAF0A /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7550BC2F1EE5466E005CAF0A /* tesla.jpg */; };
 		7558D56D1ED6896F008FC080 /* LYCAShapeDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */; };
+		7569F2111F0C6D4800CBF56D /* LYRichTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7569F2101F0C6D4800CBF56D /* LYRichTextViewController.m */; };
 		75A60AC21EEFB34400FD7591 /* click.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A60ABE1EEFB34400FD7591 /* click.png */; };
 		75A60AC31EEFB34400FD7591 /* hour.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A60ABF1EEFB34400FD7591 /* hour.png */; };
 		75A60AC41EEFB34400FD7591 /* min.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A60AC01EEFB34400FD7591 /* min.png */; };
@@ -61,6 +62,8 @@
 		7550BC2F1EE5466E005CAF0A /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
 		7558D56B1ED6896F008FC080 /* LYCAShapeDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCAShapeDisplayViewController.h; sourceTree = "<group>"; };
 		7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCAShapeDisplayViewController.m; sourceTree = "<group>"; };
+		7569F20F1F0C6D4800CBF56D /* LYRichTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRichTextViewController.h; sourceTree = "<group>"; };
+		7569F2101F0C6D4800CBF56D /* LYRichTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRichTextViewController.m; sourceTree = "<group>"; };
 		75A60ABE1EEFB34400FD7591 /* click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = click.png; sourceTree = "<group>"; };
 		75A60ABF1EEFB34400FD7591 /* hour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hour.png; sourceTree = "<group>"; };
 		75A60AC01EEFB34400FD7591 /* min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = min.png; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				75AEE03F1ED6841F00933B19 /* AppDelegate.m */,
 				75AEE0411ED6841F00933B19 /* ViewController.h */,
 				75AEE0421ED6841F00933B19 /* ViewController.m */,
+				7569F20F1F0C6D4800CBF56D /* LYRichTextViewController.h */,
+				7569F2101F0C6D4800CBF56D /* LYRichTextViewController.m */,
 				75B4CFD61EFA4A9B0011DDB3 /* LYTextLayerViewController.h */,
 				75B4CFD71EFA4A9B0011DDB3 /* LYTextLayerViewController.m */,
 				2CF3F9FA1EF9717000A84B89 /* LYShaperLayerViewController.h */,
@@ -320,6 +325,7 @@
 				2C277A531EF81073005F3AE6 /* LYDelayerViewController.m in Sources */,
 				75A60ACE1EF1176F00FD7591 /* LYRoundViewController.m in Sources */,
 				2CA54CC81EF69FA8006CEB2D /* LYAffineTransformViewController.m in Sources */,
+				7569F2111F0C6D4800CBF56D /* LYRichTextViewController.m in Sources */,
 				75B4CFCD1EF76C940011DDB3 /* LY3DTransformViewController.m in Sources */,
 				2C277A501EF80826005F3AE6 /* LYBackViewController.m in Sources */,
 				75AEE03D1ED6841E00933B19 /* main.m in Sources */,
