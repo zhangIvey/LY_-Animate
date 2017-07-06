@@ -46,6 +46,7 @@
 		75CCBBED1EEE5C9D009931DE /* CustomDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCBBEC1EEE5C9D009931DE /* CustomDrawingViewController.m */; };
 		75EF216A1F0C94EF00EB33E7 /* LYCustomLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF21691F0C94EF00EB33E7 /* LYCustomLabelViewController.m */; };
 		75EF216D1F0C956000EB33E7 /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF216C1F0C956000EB33E7 /* LayerLabel.m */; };
+		75EF21721F0DCDCA00EB33E7 /* LYTransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF21711F0DCDCA00EB33E7 /* LYTransformLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +116,8 @@
 		75EF21691F0C94EF00EB33E7 /* LYCustomLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCustomLabelViewController.m; sourceTree = "<group>"; };
 		75EF216B1F0C956000EB33E7 /* LayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
 		75EF216C1F0C956000EB33E7 /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
+		75EF21701F0DCDCA00EB33E7 /* LYTransformLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTransformLayerViewController.h; sourceTree = "<group>"; };
+		75EF21711F0DCDCA00EB33E7 /* LYTransformLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTransformLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 				75AEE03F1ED6841F00933B19 /* AppDelegate.m */,
 				75AEE0411ED6841F00933B19 /* ViewController.h */,
 				75AEE0421ED6841F00933B19 /* ViewController.m */,
+				75EF21701F0DCDCA00EB33E7 /* LYTransformLayerViewController.h */,
+				75EF21711F0DCDCA00EB33E7 /* LYTransformLayerViewController.m */,
 				75EF21681F0C94EF00EB33E7 /* LYCustomLabelViewController.h */,
 				75EF21691F0C94EF00EB33E7 /* LYCustomLabelViewController.m */,
 				75EF216B1F0C956000EB33E7 /* LayerLabel.h */,
@@ -333,6 +338,7 @@
 				75B4CFD01EF79FCE0011DDB3 /* LYSublayerTransformViewController.m in Sources */,
 				75CCBBED1EEE5C9D009931DE /* CustomDrawingViewController.m in Sources */,
 				2CA54CCB1EF6B07A006CEB2D /* LYConcatTransformViewController.m in Sources */,
+				75EF21721F0DCDCA00EB33E7 /* LYTransformLayerViewController.m in Sources */,
 				2C277A531EF81073005F3AE6 /* LYDelayerViewController.m in Sources */,
 				75A60ACE1EF1176F00FD7591 /* LYRoundViewController.m in Sources */,
 				2CA54CC81EF69FA8006CEB2D /* LYAffineTransformViewController.m in Sources */,
