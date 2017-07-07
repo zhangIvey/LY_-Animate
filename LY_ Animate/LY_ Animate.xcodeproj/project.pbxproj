@@ -47,6 +47,7 @@
 		75EF216A1F0C94EF00EB33E7 /* LYCustomLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF21691F0C94EF00EB33E7 /* LYCustomLabelViewController.m */; };
 		75EF216D1F0C956000EB33E7 /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF216C1F0C956000EB33E7 /* LayerLabel.m */; };
 		75EF21721F0DCDCA00EB33E7 /* LYTransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF21711F0DCDCA00EB33E7 /* LYTransformLayerViewController.m */; };
+		75EF21751F0F0CB500EB33E7 /* LYGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF21741F0F0CB500EB33E7 /* LYGradientLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +119,8 @@
 		75EF216C1F0C956000EB33E7 /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
 		75EF21701F0DCDCA00EB33E7 /* LYTransformLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTransformLayerViewController.h; sourceTree = "<group>"; };
 		75EF21711F0DCDCA00EB33E7 /* LYTransformLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTransformLayerViewController.m; sourceTree = "<group>"; };
+		75EF21731F0F0CB500EB33E7 /* LYGradientLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYGradientLayerViewController.h; sourceTree = "<group>"; };
+		75EF21741F0F0CB500EB33E7 /* LYGradientLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYGradientLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 				75AEE03F1ED6841F00933B19 /* AppDelegate.m */,
 				75AEE0411ED6841F00933B19 /* ViewController.h */,
 				75AEE0421ED6841F00933B19 /* ViewController.m */,
+				75EF21731F0F0CB500EB33E7 /* LYGradientLayerViewController.h */,
+				75EF21741F0F0CB500EB33E7 /* LYGradientLayerViewController.m */,
 				75EF21701F0DCDCA00EB33E7 /* LYTransformLayerViewController.h */,
 				75EF21711F0DCDCA00EB33E7 /* LYTransformLayerViewController.m */,
 				75EF21681F0C94EF00EB33E7 /* LYCustomLabelViewController.h */,
@@ -333,6 +338,7 @@
 				75B4CFD31EF8B4430011DDB3 /* LYCubeViewController.m in Sources */,
 				75AEE0401ED6841F00933B19 /* AppDelegate.m in Sources */,
 				75A60AD81EF3AB8B00FD7591 /* LYFilterViewController.m in Sources */,
+				75EF21751F0F0CB500EB33E7 /* LYGradientLayerViewController.m in Sources */,
 				75A60ACB1EF0CE0B00FD7591 /* LYzPositionViewController.m in Sources */,
 				2CF3F9FC1EF9717000A84B89 /* LYShaperLayerViewController.m in Sources */,
 				75B4CFD01EF79FCE0011DDB3 /* LYSublayerTransformViewController.m in Sources */,
