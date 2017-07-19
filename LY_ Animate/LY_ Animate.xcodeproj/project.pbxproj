@@ -12,6 +12,8 @@
 		2CA54CC81EF69FA8006CEB2D /* LYAffineTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA54CC71EF69FA8006CEB2D /* LYAffineTransformViewController.m */; };
 		2CA54CCB1EF6B07A006CEB2D /* LYConcatTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA54CCA1EF6B07A006CEB2D /* LYConcatTransformViewController.m */; };
 		2CF3F9FC1EF9717000A84B89 /* LYShaperLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3F9FB1EF9717000A84B89 /* LYShaperLayerViewController.m */; };
+		7519E9E71F1D9B06001823B9 /* LYReflection_ReplicatorLayer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7519E9E61F1D9B06001823B9 /* LYReflection_ReplicatorLayer_ViewController.m */; };
+		7519E9EA1F1D9BC1001823B9 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7519E9E91F1D9BC1001823B9 /* ReflectionView.m */; };
 		7550BC2E1EE5426B005CAF0A /* LYLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7550BC2D1EE5426A005CAF0A /* LYLayerViewController.m */; };
 		7550BC301EE5466E005CAF0A /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7550BC2F1EE5466E005CAF0A /* tesla.jpg */; };
 		7558D56D1ED6896F008FC080 /* LYCAShapeDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558D56C1ED6896F008FC080 /* LYCAShapeDisplayViewController.m */; };
@@ -62,6 +64,10 @@
 		2CA54CCA1EF6B07A006CEB2D /* LYConcatTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYConcatTransformViewController.m; sourceTree = "<group>"; };
 		2CF3F9FA1EF9717000A84B89 /* LYShaperLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYShaperLayerViewController.h; sourceTree = "<group>"; };
 		2CF3F9FB1EF9717000A84B89 /* LYShaperLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYShaperLayerViewController.m; sourceTree = "<group>"; };
+		7519E9E51F1D9B06001823B9 /* LYReflection_ReplicatorLayer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYReflection_ReplicatorLayer_ViewController.h; sourceTree = "<group>"; };
+		7519E9E61F1D9B06001823B9 /* LYReflection_ReplicatorLayer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYReflection_ReplicatorLayer_ViewController.m; sourceTree = "<group>"; };
+		7519E9E81F1D9BC1001823B9 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		7519E9E91F1D9BC1001823B9 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
 		7550BC2C1EE5426A005CAF0A /* LYLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLayerViewController.h; sourceTree = "<group>"; };
 		7550BC2D1EE5426A005CAF0A /* LYLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLayerViewController.m; sourceTree = "<group>"; };
 		7550BC2F1EE5466E005CAF0A /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
@@ -165,6 +171,10 @@
 				75AEE0421ED6841F00933B19 /* ViewController.m */,
 				755C246E1F145852009D199A /* LYReplicatorLayerViewController.h */,
 				755C246F1F145852009D199A /* LYReplicatorLayerViewController.m */,
+				7519E9E51F1D9B06001823B9 /* LYReflection_ReplicatorLayer_ViewController.h */,
+				7519E9E61F1D9B06001823B9 /* LYReflection_ReplicatorLayer_ViewController.m */,
+				7519E9E81F1D9BC1001823B9 /* ReflectionView.h */,
+				7519E9E91F1D9BC1001823B9 /* ReflectionView.m */,
 				75EF21731F0F0CB500EB33E7 /* LYGradientLayerViewController.h */,
 				75EF21741F0F0CB500EB33E7 /* LYGradientLayerViewController.m */,
 				75EF21701F0DCDCA00EB33E7 /* LYTransformLayerViewController.h */,
@@ -345,6 +355,7 @@
 				75A60AD81EF3AB8B00FD7591 /* LYFilterViewController.m in Sources */,
 				75EF21751F0F0CB500EB33E7 /* LYGradientLayerViewController.m in Sources */,
 				75A60ACB1EF0CE0B00FD7591 /* LYzPositionViewController.m in Sources */,
+				7519E9E71F1D9B06001823B9 /* LYReflection_ReplicatorLayer_ViewController.m in Sources */,
 				2CF3F9FC1EF9717000A84B89 /* LYShaperLayerViewController.m in Sources */,
 				755C24701F145852009D199A /* LYReplicatorLayerViewController.m in Sources */,
 				75B4CFD01EF79FCE0011DDB3 /* LYSublayerTransformViewController.m in Sources */,
@@ -356,6 +367,7 @@
 				2CA54CC81EF69FA8006CEB2D /* LYAffineTransformViewController.m in Sources */,
 				7569F2111F0C6D4800CBF56D /* LYRichTextViewController.m in Sources */,
 				75EF216D1F0C956000EB33E7 /* LayerLabel.m in Sources */,
+				7519E9EA1F1D9BC1001823B9 /* ReflectionView.m in Sources */,
 				75B4CFCD1EF76C940011DDB3 /* LY3DTransformViewController.m in Sources */,
 				2C277A501EF80826005F3AE6 /* LYBackViewController.m in Sources */,
 				75AEE03D1ED6841E00933B19 /* main.m in Sources */,

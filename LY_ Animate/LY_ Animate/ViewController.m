@@ -32,6 +32,7 @@
 #import "LYTransformLayerViewController.h"
 #import "LYGradientLayerViewController.h"
 #import "LYReplicatorLayerViewController.h"
+#import "LYReflection_ReplicatorLayer_ViewController.h"
 
 
 
@@ -49,7 +50,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明",@"仿射变换",@"混合变换",@"3D变换",@"sublayerTransform",@"图层背面",@"扁平化图层",@"立方体",@"CAShaperLayer - 火柴人",@"CATextLayer",@"CATextLayer + 富文本 + NSAttributedString",@"UILabel的替代品",@"CATransformLayer",@"CAGradientLayer 颜色平滑过渡",@"CAReplicatorLayer重复图层"];
+    _items = @[@"CADisplayLink + CAShapeLayer",@"CALayer + hitTest",@"contentsRect - 图片拼合",@"contentsCenter",@"custom Drawing",@"anchorPoint",@"zPosition",@"视觉效果-圆角",@"图层蒙版",@"过滤拉伸",@"组透明",@"仿射变换",@"混合变换",@"3D变换",@"sublayerTransform",@"图层背面",@"扁平化图层",@"立方体",@"CAShaperLayer - 火柴人",@"CATextLayer",@"CATextLayer + 富文本 + NSAttributedString",@"UILabel的替代品",@"CATransformLayer",@"CAGradientLayer 颜色平滑过渡",@"CAReplicatorLayer重复图层",@"CAReplicator + 反射"];
     
   //测试新颁布GitHub
     
@@ -162,6 +163,9 @@
     }else if(indexPath.row == 24){
         LYReplicatorLayerViewController *replicatorLayerViewController = [[LYReplicatorLayerViewController alloc] init];
         [self.navigationController pushViewController:replicatorLayerViewController animated:YES];
+    }else if (indexPath.row == 25){
+        LYReflection_ReplicatorLayer_ViewController *reflectionViewController = [[LYReflection_ReplicatorLayer_ViewController alloc] init];
+        [self.navigationController pushViewController:reflectionViewController animated:YES];
     }
     
 }
