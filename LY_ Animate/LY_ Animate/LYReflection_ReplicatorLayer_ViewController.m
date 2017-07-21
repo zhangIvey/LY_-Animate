@@ -20,13 +20,12 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    ReflectionView *reflectionView = [[ReflectionView alloc] init];
-    reflectionView.frame = self.view.bounds;
-    reflectionView.backgroundColor = [UIColor greenColor];
+    ReflectionView *reflectionView = [[ReflectionView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    reflectionView.backgroundColor = [UIColor grayColor];
     
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tesla.png"]];
     imageView.frame = reflectionView.bounds;
-//    [reflectionView addSubview:imageView];
+    [reflectionView addSubview:imageView];
     
     [self.view addSubview:reflectionView];
     
